@@ -1,0 +1,22 @@
+.active {
+  color: #192a56;
+  font-weight: 600;
+}
+.progress {
+  color: aquamarine;
+}
+.todos-edit-input {
+  display: none;
+  width: 50px !important;
+}
+.todos-edit-input-active{
+  width: 130px !important;
+  border-radius: 5px;
+  padding-left: 6px !important;
+  border: 1px solid blue;
+  display: block;
+  padding: 0;
+}
+.todos-edit-input-active:focus{
+  outline: none;
+}
